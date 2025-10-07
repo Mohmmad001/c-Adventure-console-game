@@ -10,7 +10,7 @@ class tourch:public items{
      tourch(){
         name = "tourch";
         descreption = "You picked up a Torch!"
-        "Its warm flame lights up the darkness ahead — useful for exploring caves or secret rooms. ";
+        "Its warm flame lights up the darkness ahead useful for exploring caves or secret rooms. ";
      }
 };
 
