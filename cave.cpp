@@ -102,6 +102,9 @@ void cave::action3(int& coins, items* items_array, int size, player_attribute* a
             cout << "You fumble and lose your turn!\n";
         }
 
+         cout << "Your HP: " << attribute->get_health() 
+             << " | Goblin HP: " << goblin_health << "\n\n";
+
         // Check if Goblin is dead
         if (goblin_health <= 0) {
             cout << "\nYou defeated the Goblin after a fierce fight!\n";
